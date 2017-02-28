@@ -25,7 +25,7 @@ rundll32.exe InetCpl.cpl, ClearMyTracksByProcess 32
 # Load up IE
 $ie = New-Object -com InternetExplorer.Application
 # Set to invisible - If this was set to $True, the user would see IE pop up and load Office365
-$ie.visible = $True 
+$ie.visible = $False 
 
 #Load the webpage
 $ie.navigate($URL)
