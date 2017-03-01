@@ -1,0 +1,24 @@
+PS J:\> cat .\todays-commands.txt
+Invoke-Item C:\Windows\System32\calc.exe
+clear
+write-host"
+
+
+
+
+
+
+
+
+
+
+
+************************************************************************************
+Piping powershell commands from a text-file into powershell.exe
+is a fantastic way to get around a Restricted Powershell Execution Policy, like so:
+
+cat J:\todays-commands.txt | powershell.exe
+************************************************************************************
+
+
+"
