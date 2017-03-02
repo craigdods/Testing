@@ -5,7 +5,7 @@ cd J:
 mkdir $Domain
 cd $Domain
 mkdir $User
-cd $User
+
 
 
 #List and record all files
